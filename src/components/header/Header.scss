@@ -96,7 +96,6 @@
   display: flex;
   gap: 45px;
   list-style-type: none;
-  color: #515359;
   font-size: 13px;
   font-weight: 900;
 
@@ -104,4 +103,18 @@
     flex-direction: column;
     gap: 15px;
   }
+}
+
+.header__link {
+  text-decoration: none;
+  color: #515359;
+  transition: all .5s;
+}
+
+.header__link:hover {
+  opacity: .8;
+}
+
+.active {
+  color: #cb003d;
 }

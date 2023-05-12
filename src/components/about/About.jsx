@@ -5,7 +5,7 @@ import cameraImg from '../../assets/Camera.png'
 
 export default function About() {
   return (
-    <div className={'about'}>
+    <main className={'about'}>
       <div className={'intro'}>
         <div className={'intro__content'}>
           <div className={'intro__info'}>
@@ -37,6 +37,6 @@ export default function About() {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   )
 }

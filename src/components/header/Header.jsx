@@ -1,12 +1,14 @@
 import logoImg from '../../assets/logo.png';
 import phoneImg from '../../assets/phone_icon.png';
-import './Header.scss'
+import './Header.scss';
+import { NavLink } from 'react-router-dom';
 
 export default function Header() {
+
   return (
     <header className={'header'}>
       <div className={'header__branding'}>
-        <img className={'header__logo'} src={logoImg} alt={'webstore logo'}/>
+        <a href={'/'}><img className={'header__logo'} src={logoImg} alt={'webstore logo'}/></a>
         <div className={'header__contacts'}>
           <div className={'header__phone-block'}>
             <img className={'header__phone-icon'} src={phoneImg} alt={'phone icon'}/>
@@ -17,10 +19,10 @@ export default function Header() {
       </div>
       <nav className={'navigation'}>
         <ul className={'header__links'}>
-          <li>КОМПАНИЯ</li>
-          <li>УСЛУГИ</li>
-          <li>РАБОТЫ</li>
-          <li>КОНТАКТЫ</li>
+          <li><NavLink className={'header__link'} exact to="/" activeClassName="active">КОМПАНИЯ</NavLink></li>
+          <li><NavLink className={'header__link'} to="/services" activeClassName="active">УСЛУГИ</NavLink></li>
+          <li><NavLink className={'header__link'} to="/works" activeClassName="active">РАБОТЫ</NavLink></li>
+          <li><NavLink className={'header__link'} to="/contacts" activeClassName="active">КОНТАКТЫ</NavLink></li>
         </ul>
       </nav>
     </header>
