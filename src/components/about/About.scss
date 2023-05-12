@@ -97,6 +97,14 @@ $background-image: url('../../assets/grey_bg.png');
   }
 }
 
+.intro__button:hover {
+  cursor: pointer;
+  opacity: .8;
+  background-color: white;
+  color: #cb003d;
+  border: none;
+}
+
 .intro__image {
   max-height: 800px;
   object-fit: contain;

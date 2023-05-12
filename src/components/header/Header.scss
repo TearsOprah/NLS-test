@@ -69,6 +69,15 @@
   font-size: 16px;
   font-weight: 600;
   white-space: nowrap;
+  transition: all .4s;
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: .8;
+  background-color: #cb003d;
+  color: white;
+  border: 2px solid #cb003d;
 }
 
 .navigation {
