@@ -19,10 +19,10 @@ export default function Header() {
       </div>
       <nav className={'navigation'}>
         <ul className={'header__links'}>
-          <li><NavLink className={'header__link'} exact to="/" activeClassName="active">КОМПАНИЯ</NavLink></li>
-          <li><NavLink className={'header__link'} to="/services" activeClassName="active">УСЛУГИ</NavLink></li>
-          <li><NavLink className={'header__link'} to="/works" activeClassName="active">РАБОТЫ</NavLink></li>
-          <li><NavLink className={'header__link'} to="/contacts" activeClassName="active">КОНТАКТЫ</NavLink></li>
+          <li><NavLink className={'header__link'} exact={''} to="/" activeclassname="active">КОМПАНИЯ</NavLink></li>
+          <li><NavLink className={'header__link'} to="/services" activeclassname="active">УСЛУГИ</NavLink></li>
+          <li><NavLink className={'header__link'} to="/works" activeclassname="active">РАБОТЫ</NavLink></li>
+          <li><NavLink className={'header__link'} to="/contacts" activeclassname="active">КОНТАКТЫ</NavLink></li>
         </ul>
       </nav>
     </header>
