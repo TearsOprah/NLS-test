@@ -1,0 +1,53 @@
+$background-image: url('../../assets/grey_bg.png');
+
+.about {
+  width: 100%;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-image: $background-image;
+  min-height: 940px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.intro__info {
+
+}
+
+.intro__title {
+  color: white;
+  font-size: 55px;
+  line-height: 101%;
+}
+
+.intro__message {
+  margin-top: -35px;
+  color: white;
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 200;
+
+  label {
+    color: #3a3c40;
+    font-size: 95px;
+    line-height: 85px;
+    font-weight: 900;
+  }
+}
+
+.intro__button {
+  color: white;
+  background-color: #cb003d;
+  border: none;
+  margin-top: 50px;
+}
+
+.intro__image {
+  max-height: 745px;
+}

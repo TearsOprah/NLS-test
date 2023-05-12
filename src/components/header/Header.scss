@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  max-width: 960px;
 }
 
 .header__branding {
@@ -42,6 +43,8 @@
 }
 
 .button {
+  all: unset;
+  border: 2px solid #979ba6;
   color: #cb003d;
   padding: 11px 27px;
   border-radius: 35px;
