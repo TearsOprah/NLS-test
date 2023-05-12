@@ -1,0 +1,65 @@
+.header {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.header__branding {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e0e1e1;
+}
+
+.header__logo {
+  height: 37px;
+  width: 196px;
+}
+
+.header__contacts {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header__phone-block {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header__phone-icon {
+  height: 27px;
+  width: 22px;
+}
+
+.header__phone {
+  font-size: 18px;
+  font-weight: 400;
+  color: #515359;
+}
+
+.button {
+  color: #cb003d;
+  padding: 11px 27px;
+  border-radius: 35px;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.navigation {
+
+}
+
+.header__links {
+  margin-top: 37px;
+  display: flex;
+  gap: 45px;
+  list-style-type: none;
+  color: #515359;
+  font-size: 13px;
+  font-weight: 900;
+}

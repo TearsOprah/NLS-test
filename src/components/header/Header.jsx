@@ -1,5 +1,6 @@
 import logoImg from '../../assets/logo.png';
-import phoneImg from '../../assets/logo.png';
+import phoneImg from '../../assets/phone_icon.png';
+import './Header.scss'
 
 export default function Header() {
   return (
@@ -9,7 +10,7 @@ export default function Header() {
         <div className={'header__contacts'}>
           <div className={'header__phone-block'}>
             <img className={'header__phone-icon'} src={phoneImg} alt={'phone icon'}/>
-            <p className={'header__phone'}>+7(495)926-01-26</p>
+            <p className={'header__phone'}>+7 (495) 926-01-26</p>
           </div>
           <button className={'button'}>Заказать сайт</button>
         </div>
