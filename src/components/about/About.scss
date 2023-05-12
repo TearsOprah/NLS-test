@@ -64,19 +64,34 @@ $background-image: url('../../assets/grey_bg.png');
 }
 
 .company {
+  margin: 0 auto;
   display: flex;
+  align-items: start;
+  max-width: 960px;
+  gap: 60px;
 }
 
 .company__info {
-
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
 }
 
 .company__title {
-
+  font-size: 30px;
+  color: #3a3c40;
 }
 
 .company__description {
+  font-size: 16px;
+  line-height: 32px;
 
+  label {
+  color: #46484d;
+    label {
+      color: #cb003d;
+    }
+  }
 }
 
 .company__images {
@@ -85,5 +100,5 @@ $background-image: url('../../assets/grey_bg.png');
 }
 
 .company__image {
-
+  height: 490px;
 }
