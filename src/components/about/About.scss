@@ -13,6 +13,8 @@ $background-image: url('../../assets/grey_bg.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
 }
 
 .intro__content {
@@ -26,7 +28,7 @@ $background-image: url('../../assets/grey_bg.png');
 .intro__info {
   max-width: 300px;
   flex-grow: 0;
-  z-index: 2;
+  z-index: 3;
 }
 
 .intro__title {
@@ -58,12 +60,20 @@ $background-image: url('../../assets/grey_bg.png');
 }
 
 .intro__image {
-  max-height: 745px;
+  max-height: 800px;
   max-width: 750px;
   flex-grow: 0;
 }
 
 .company {
+  position: relative;
+  z-index: 0;
+  padding-top: 180px;
+  margin-top: -150px;
+  background-color: #eaeae8;
+}
+
+.company__content {
   margin: 0 auto;
   display: flex;
   align-items: start;
@@ -87,7 +97,8 @@ $background-image: url('../../assets/grey_bg.png');
   line-height: 32px;
 
   label {
-  color: #46484d;
+  color: black;
+    font-weight: 500;
     label {
       color: #cb003d;
     }

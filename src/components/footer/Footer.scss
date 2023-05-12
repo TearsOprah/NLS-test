@@ -1,0 +1,19 @@
+$background-image: url('../../assets/map.png');
+
+.footer {
+  //display: flex;
+  //justify-content: center;
+  //width: 100%;
+  //background-image: $background-image;
+  //min-height: 500px;
+  //background-size: contain;
+  //background-position: center;
+  //background-repeat: no-repeat;
+
+  min-height: 400px;
+  background-color: #eaeae8;
+}
+
+.footer__map-image {
+  width: 100%;
+}
