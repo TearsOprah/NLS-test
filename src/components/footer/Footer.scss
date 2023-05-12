@@ -23,6 +23,7 @@ $background-image: url('../../assets/map.png');
 
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
 }
 
 .footer__left-block {
@@ -43,6 +44,12 @@ $background-image: url('../../assets/map.png');
   margin-left: 35px;
   display: flex;
   gap: 10px;
+  font-size: 13px
+}
+
+.footer__light-text {
+  font-weight: 400;
+  color: #747780;
 }
 
 .footer__address {
