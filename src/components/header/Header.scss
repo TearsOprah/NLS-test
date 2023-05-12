@@ -10,8 +10,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  align-content: center;
   padding-bottom: 20px;
   border-bottom: 1px solid #e0e1e1;
+
+  @media screen and (max-width: 960px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  @media screen and (max-width: 650px) {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
 
 .header__logo {
@@ -23,6 +34,11 @@
   display: flex;
   align-items: center;
   gap: 40px;
+
+  @media screen and (max-width: 420px) {
+    flex-direction: column;
+    gap: 15px;
+  }
 }
 
 .header__phone-block {
@@ -40,6 +56,7 @@
   font-size: 18px;
   font-weight: 400;
   color: #515359;
+  white-space: nowrap;
 }
 
 .button {
@@ -55,7 +72,14 @@
 }
 
 .navigation {
+  @media screen and (max-width: 960px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
+  @media screen and (max-width: 650px) {
+    align-self: center;
+  }
 }
 
 .header__links {
@@ -66,4 +90,9 @@
   color: #515359;
   font-size: 13px;
   font-weight: 900;
+
+  @media screen and (max-width: 420px) {
+    flex-direction: column;
+    gap: 15px;
+  }
 }
