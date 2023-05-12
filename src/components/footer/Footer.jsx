@@ -4,6 +4,7 @@ import mapImg from '../../assets/map.png'
 export default function Footer() {
   return (
     <footer className={'footer'}>
+      <img className={'footer__map-image'} src={mapImg} alt={'map'}/>
       <div className={'footer__content'}>
         <div className={'footer__left-block'}>
           <div className={'footer__item'}>
@@ -27,7 +28,6 @@ export default function Footer() {
           <p className={'footer__item'}>© 1997-2014 WebStore</p>
         </div>
       </div>
-      <img className={'footer__map-image'} src={mapImg} alt={'map'}/>
     </footer>
   )
 }
