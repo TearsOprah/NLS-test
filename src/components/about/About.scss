@@ -7,7 +7,6 @@ $background-image: url('../../assets/grey_bg.png');
 .intro {
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 100%;
   background-image: $background-image;
   min-height: 940px;
@@ -16,8 +15,18 @@ $background-image: url('../../assets/grey_bg.png');
   background-repeat: no-repeat;
 }
 
-.intro__info {
+.intro__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 960px;
+  flex-direction: row;
+}
 
+.intro__info {
+  max-width: 300px;
+  flex-grow: 0;
+  z-index: 2;
 }
 
 .intro__title {
@@ -50,4 +59,31 @@ $background-image: url('../../assets/grey_bg.png');
 
 .intro__image {
   max-height: 745px;
+  max-width: 750px;
+  flex-grow: 0;
+}
+
+.company {
+  display: flex;
+}
+
+.company__info {
+
+}
+
+.company__title {
+
+}
+
+.company__description {
+
+}
+
+.company__images {
+  display: flex;
+  flex-direction: column;
+}
+
+.company__image {
+
 }
